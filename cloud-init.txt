@@ -11,7 +11,7 @@ write_files:
         <title>hieuVM$i</title>
       </head>
       <body>
-        <h1>Hello from hieuntjs2205019@fpt.edu.vn$i</h1>
+        <h1>Hello from hieuntjs2205019 this is web$i</h1>
       </body>
       </html>
 runcmd:
