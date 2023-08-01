@@ -42,7 +42,7 @@ for i in `seq 1 3`; do
   echo 'Creating webNic'$i
   az network nic create \
     --resource-group $RgName \
-    --name webNic$i \
+    --name hieunguyenNic$i \
     --vnet-name bePortalVnet \
     --subnet bePortalSubnet \
     --network-security-group bePortalNSG
@@ -60,8 +60,8 @@ for i in `seq 1 3`; do
     az vm create \
         --admin-username azureuser \
         --resource-group $RgName \
-        --name webVM$i \
-        --nics webNic$i \
+        --name hieunguyenVM$i \
+        --nics hieunguyenNic$i \
         --image UbuntuLTS \
         --availability-set portalAvailabilitySet \
         --generate-ssh-keys \
