@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 # Usage: bash create-high-availability-vm-with-sets.sh <Resource Group Name>
 
 RgName=$1
